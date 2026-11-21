@@ -1,0 +1,14 @@
+{
+  "id": 3,
+  "title": "Regional Poverty",
+  "question": "How do county poverty percentages vary across states?",
+  "x": "state",
+  "y": "percbelowpoverty",
+  "mode": "group",
+  "caveat": "Means weight counties equally, not people; historical county aggregates cannot describe individuals.",
+  "action": "Recalculate population-weighted estimates using the correct poverty denominator.",
+  "csv": "https://vincentarelbundock.github.io/Rdatasets/csv/ggplot2/midwest.csv",
+  "doc": "https://vincentarelbundock.github.io/Rdatasets/doc/ggplot2/midwest.html",
+  "metric_label": "mean percbelowpoverty",
+  "method": "Complete-case descriptive comparison of percbelowpoverty by state; show group counts, mean, minimum and maximum."
+}

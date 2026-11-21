@@ -1,0 +1,16 @@
+{
+  "project": "Regional Poverty",
+  "executed_utc": "2026-11-21T10:14:09.791038+00:00",
+  "source": "https://vincentarelbundock.github.io/Rdatasets/csv/ggplot2/midwest.csv",
+  "documentation": "https://vincentarelbundock.github.io/Rdatasets/doc/ggplot2/midwest.html",
+  "sha256": "08baf8ae6cc820a2397fad11e7bd1c8fc49726bccb18c393af82566ad71b3a04",
+  "raw_rows": 437,
+  "analysis_rows": 437,
+  "excluded_rows": 0,
+  "exact_duplicate_rows": 0,
+  "duplicates_policy": "Retained; duplicate values do not necessarily mean duplicate entities.",
+  "python": "3.12.14",
+  "pandas": "2.2.3",
+  "numpy": "2.3.5",
+  "matplotlib": "3.10.8"
+}

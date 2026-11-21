@@ -1,0 +1,1 @@
+SELECT "state" AS segment, COUNT(*) AS rows_used, AVG("percbelowpoverty") AS metric, MIN("percbelowpoverty") AS minimum, MAX("percbelowpoverty") AS maximum FROM observations GROUP BY "state" ORDER BY "state";
